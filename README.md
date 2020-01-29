@@ -14,7 +14,7 @@ import { ReactContainerComponent } from "./react-container/react-container.compo
 const routes: Routes = [{ path: "react", component: ReactContainerComponent }];
 ```
 
-your-component.ts
+react-container-component.ts
 
 ```
 import { registerApplication, start } from "single-spa";
@@ -30,6 +30,13 @@ ngOnInit() {
   registerApplication("reactApp", loadingFunction, activityFunction);
   start();
 }
+```
+
+react-container-component.ts
+add
+
+```
+<div id="root"></div>
 ```
 
 ## Set up React
