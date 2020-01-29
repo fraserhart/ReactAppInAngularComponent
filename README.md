@@ -22,7 +22,7 @@ import { registerApplication, start } from "single-spa";
 .
 ngOnInit() {
   const loadingFunction = () => {
-    return import("./main.js"); //this is the location of the bundled React application
+    return import("../../../reactapp/build/static/js/main.js"); //this is the location of the bundled React application
   };
   const activityFunction = () => {
     return true;
