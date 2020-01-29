@@ -74,6 +74,8 @@ remove optimisation block
 
 remove new HTMLWebpackPlugin for production builds
 
+remove MiniCssExtractPlugin from production builds so styles are bundled into the JS rather than an external stylesheet
+
 remove:
 
 ```

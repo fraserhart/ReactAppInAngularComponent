@@ -33,7 +33,7 @@ function App() {
       <div className="App">
         <HashLink href="#fff">first page</HashLink>
         <HashLink href="#sdfa">second page</HashLink>[{hashRoute}]
-        {hashRoute === "#sdfa" && <div>This is the main route</div>}
+        {hashRoute === "#sdfa/ppp/oi" && <div>This is the main route</div>}
         {hashRoute === "#fff" && <div>This is the second route</div>}
       </div>
     </div>
