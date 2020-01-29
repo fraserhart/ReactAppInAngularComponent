@@ -38,7 +38,7 @@ ngOnInit() {
 new react app: npx create-react-app [app name]
 cd [app name]
 npm i single-spa-react
-npm run eject
+npm run eject #😱
 ```
 
 webpack.conf
