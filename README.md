@@ -64,7 +64,7 @@ output: {
   .
   .
   .
-  libraryTarget: "umd" //add this
+  libraryTarget: isEnvProduction ? "amd" : "umd" //add this
 }
 .
 .
@@ -72,7 +72,7 @@ output: {
 
 remove optimisation block
 
-remove new HTMLWebpackPlugin
+remove new HTMLWebpackPlugin for production builds
 
 remove:
 

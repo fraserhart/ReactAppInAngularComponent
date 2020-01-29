@@ -2,9 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import * as serviceWorker from "./serviceWorker";
 
 import singleSpaReact from "single-spa-react";
+
+ReactDOM.render(<App />, document.getElementById("root"));
 
 const domElementGetter = () => {
   var el = document.getElementById("root");
