@@ -1,3 +1,9 @@
+# React App in Angular Component (using single-spa)
+
+NOT PRODUCTION READY: Smashed together in a hurry at a hackathon.
+
+Limitations: currently requires the react app to be built and then imported into the Angular project at build time. Need to investigate loading the app at runtime.. and from another location (anyone with suggestions, please let me know).
+
 ## Set up Angular
 
 ```
