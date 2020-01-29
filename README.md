@@ -32,7 +32,7 @@ ngOnInit() {
 }
 ```
 
-react-container-component.ts
+react-container-component.html
 add
 
 ```
