@@ -32,7 +32,7 @@ const shouldUseSourceMap = process.env.GENERATE_SOURCEMAP !== "false";
 const shouldInlineRuntimeChunk = process.env.INLINE_RUNTIME_CHUNK !== "false";
 
 const imageInlineSizeLimit = parseInt(
-  process.env.IMAGE_INLINE_SIZE_LIMIT || "10000"
+  process.env.IMAGE_INLINE_SIZE_LIMIT || "1000000"
 );
 
 // Check if TypeScript is setup
